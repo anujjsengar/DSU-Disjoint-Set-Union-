@@ -49,7 +49,7 @@ public class Kruskal_Algorithm{
                 int re1=DSU.find(e.e1);
                 int re2=DSU.find(e.e2);
                 if(re1==re2){
-                    System.out.println("cycle");
+                    //System.out.println("cycle");
                 }
                 else{
                     DSU.union(re1, re2);
