@@ -33,7 +33,7 @@ public class Kruskal_Algorithm{
         return list;
     }
     public void Kruskal(){
-        List<EdgePair> list=getAllEdge();
+            List<EdgePair> list=getAllEdge();
             Collections.sort(list,new Comparator<EdgePair>() {
                 @Override
                 public int compare(EdgePair o1,EdgePair o2){
@@ -68,6 +68,6 @@ public class Kruskal_Algorithm{
             pa.AddEdge(6, 5, 3);
             pa.AddEdge(7, 5, 7);
             pa.AddEdge(7, 6, 2);
-            
+            pa.Kruskal();
     }
 }
